@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  padding: 2rem;
+  text-align: center;
+}
+h1,
+h3 {
+  color: #16a34a;
+}
+h2 {
+  color: #ef4444;
+}
+:root {
+  --bgcolor: #f3f4f6;
+}
+
+* {
+  background-color: var(--bgcolor);
+}
+
+input {
+  padding: 0.5rem 1rem;
+  border: 2px solid #16a34a;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+li {
+  margin: 0.5rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
